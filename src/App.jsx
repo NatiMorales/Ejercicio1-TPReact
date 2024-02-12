@@ -1,12 +1,12 @@
-import { Container } from "react-bootstrap";
 import "./App.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import TituloPrincipal from "./components/TituloPrincipal";
 
 function App() {
   return (
-    <Container fluid>
-      <h1>Hello word!</h1>
-    </Container>
+    <section>
+      <TituloPrincipal></TituloPrincipal>
+    </section>
   );
 }
 
